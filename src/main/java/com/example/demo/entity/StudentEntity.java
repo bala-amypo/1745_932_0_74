@@ -4,6 +4,9 @@ import jakarta.persistence.Entity;
 
 @Entity
 public class StudentEntity{
-    String i
+    private Long Id;
+    private String name;
+    private String email;
+    private float cgpa;
 
 }

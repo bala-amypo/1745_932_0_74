@@ -16,6 +16,7 @@ public class StudentEntity{
 
 }
 
+
 public void setName(String name){
     this.name=name;
 }
@@ -25,12 +26,18 @@ public String getName(){
 public void setEmail(String Email){
     this.email=email;
 }
-public String (){
-    return this.name;
+public String getEmail(){
+    return this.email;
 }
-public void setName(String name){
-    this.name=name;
+public void setCgpa(String Cgpa){
+    this.cgpa=cgpa;
 }
-public String getName(){
-    return this.name;
+public String getCgpa(){
+    return this.cgpa;
+}
+public void setId(String Id){
+    this.id=id;
+}
+public String getId(){
+    return this.id;
 }

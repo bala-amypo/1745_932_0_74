@@ -21,23 +21,23 @@ public void setName(String name){
     this.name=name;
 }
 public String getName(){
-    return name;
+    return this.name;
 }
 public void setEmail(String email){
     this.email=email;
 }
 public String getEmail(){
-    return email;
+    return this.email;
 }
 public void setCgpa(String cgpa){
     this.cgpa=cgpa;
 }
 public String getCgpa(){
-    return cgpa;
+    return this.cgpa;
 }
 public void setId(String Id){
     this.id=id;
 }
 public String getId(){
-    return id;
+    return this.id;
 }
